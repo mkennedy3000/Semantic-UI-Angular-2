@@ -1,26 +1,22 @@
-<div class="ui hidden divider"></div>
-
-<div class="ui container one column grid">
-    <div class="column">
-        <div class="ui padded segment">
-            <h1 class="ui header">Button</h1>
-            <div class="ui hidden divider"></div>
-            <sui-button [type]="type" [state]="state" [focusable]="canFocus">Button</sui-button>
-            <div class="ui hidden divider"></div>
-            <div class="ui form">
-                <div class="field">
-                    <label for="focusable">Focusable</label>
-                    <input id="focusable" type="checkbox" [(ngModel)]="canFocus">
-                </div>
-                <div class="field">
-                    <label for="state">State</label>
-                    <input id="state" type="text" [(ngModel)]="state">
-                </div>
-                <div class="field">
-                    <label for="type">Type</label>
-                    <input id="type" type="text" [(ngModel)]="type">
-                </div>
-            </div>
+<div class="ui visible sidebar inverted vertical menu">
+    <a class="item">
+        <a class="ui mini icon image" style="margin-right: 1em">
+            <img class="ui mini icon image" src="/assets/logo.png">
+        </a>
+        UI Angular Docs
+    </a>
+    <a class="item">
+        Getting Started
+    </a>
+    <div class="item">
+        <div class="header">Elements</div>
+        <div class="menu">
+            <a class="item">
+                Button
+            </a>
         </div>
     </div>
+</div>
+<div class="pusher" style="padding-left: 15rem">
+    <router-outlet></router-outlet>
 </div>

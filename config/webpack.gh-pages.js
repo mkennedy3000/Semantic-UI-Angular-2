@@ -15,7 +15,7 @@ module.exports = {
     },
 
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, '..', 'demo-dist'),
         publicPath: 'http://localhost:3000',
         filename: '[name].js'
     },
@@ -67,7 +67,7 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
-            template: 'src/demo/index.html'
+            template: 'src/demo/index-gh-pages.html'
         }),
 
         new ExtractTextPlugin('[name].css')
