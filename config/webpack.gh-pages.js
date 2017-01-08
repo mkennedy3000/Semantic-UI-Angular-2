@@ -48,7 +48,7 @@ module.exports = {
             },
             {
                 test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/,
-                use: 'file-loader?name=assets/[name].[ext]'
+                use: 'file-loader?name=assets/[name].[hash].[ext]'
             },
             {
                 test: /\.css$/,
