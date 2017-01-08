@@ -1,5 +1,7 @@
-<img src="https://github.com/mkennedy3000/Semantic-UI-Angular-2/blob/master/logo.png" width="128">
+<p align="center">
+  <img src="https://github.com/mkennedy3000/Semantic-UI-Angular-2/blob/master/logo.png" width="128">
+</p>
 
-# Semantic-UI-Angular-2
+# ng-semantic-ui
 
-Semantic UI Angular 2 Integrations
+Pure Semantic UI Angular Components
