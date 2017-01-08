@@ -1,1 +1,26 @@
-<sui-button></sui-button>
+<div class="ui hidden divider"></div>
+
+<div class="ui container one column grid">
+    <div class="column">
+        <div class="ui padded segment">
+            <h1 class="ui header">Button</h1>
+            <div class="ui hidden divider"></div>
+            <sui-button [type]="type" [state]="state" [focusable]="canFocus">Button</sui-button>
+            <div class="ui hidden divider"></div>
+            <div class="ui form">
+                <div class="field">
+                    <label for="focusable">Focusable</label>
+                    <input id="focusable" type="checkbox" [(ngModel)]="canFocus">
+                </div>
+                <div class="field">
+                    <label for="state">State</label>
+                    <input id="state" type="text" [(ngModel)]="state">
+                </div>
+                <div class="field">
+                    <label for="type">Type</label>
+                    <input id="type" type="text" [(ngModel)]="type">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

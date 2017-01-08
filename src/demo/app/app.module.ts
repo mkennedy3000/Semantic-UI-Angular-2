@@ -1,14 +1,16 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { ButtonModule } from '../../lib/button/button.module';
+import { SUIButtonModule } from '../../lib/button/button.module';
 
 
 @NgModule({
     imports: [
         BrowserModule,
-        ButtonModule
+        SUIButtonModule,
+        FormsModule
     ],
     declarations: [
         AppComponent
