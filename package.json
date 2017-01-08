@@ -1,11 +1,12 @@
 {
   "name": "@mkennedy3000/ng-semantic-ui",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
+  "description": "Pure Semantic UI Angular Components",
   "main": "dist/ng-semantic-ui.js",
   "types": "dist/ng-semantic-ui.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc -p src/lib",
-    "prepublish": "",
+    "prepublish": "npm run build",
     "start": "webpack-dev-server --config config/webpack.demo.js --inline --progress --port 3000",
     "test": "karma start config/karma.conf.js",
     "test-watch": "npm test -- --no-single-run --auto-watch"
