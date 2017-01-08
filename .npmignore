@@ -1,0 +1,9 @@
+config
+node_modules
+src
+
+.gitignore
+.nvmrc
+.travis.yml
+logo.png
+README.md

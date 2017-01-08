@@ -10,7 +10,7 @@ const BASE_CLASSES = 'ui button';
 
 @Component({
     selector: 'sui-button',
-    templateUrl: 'button.component.html',
+    template: `<ng-content></ng-content>`,
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SUIButtonComponent implements OnChanges {

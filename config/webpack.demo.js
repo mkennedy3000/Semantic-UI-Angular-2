@@ -34,7 +34,7 @@ module.exports = {
                 test: /\.ts$/,
                 use: [
                     {
-                        loader: 'awesome-typescript-loader',
+                        loader: 'ts-loader',
                         options: {
                             configFileName: './src/demo/tsconfig.json'
                         }

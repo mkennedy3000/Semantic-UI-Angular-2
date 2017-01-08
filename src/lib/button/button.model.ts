@@ -1,3 +1,6 @@
+/**
+ * Test comment
+ */
 export enum SUIButtonState {
     DEFAULT = <any>'default',
     ACTIVE = <any>'active',
