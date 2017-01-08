@@ -16,7 +16,7 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, '..', 'demo-dist'),
-        publicPath: 'http://localhost:3000',
+        publicPath: '/ng-semantic-ui/',
         filename: '[name].js'
     },
 
